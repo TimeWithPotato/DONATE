@@ -1,6 +1,7 @@
 body{
     margin:0;
 }
+/* Syling of Background Image section*/
 #background_img{
     background-image: url(images/donation13.jpg);
     background-repeat: no-repeat;
@@ -44,6 +45,10 @@ body{
     font-size:20px
 
 }
+
+/* End of styling background image section*/
+
+/*Start styling of donate today section*/
 .main{
     margin-top: 10%;
 }
@@ -109,6 +114,10 @@ body{
     font-weight: 300px;
     font-size:20px
 }
+/*End of styling donate today section*/
+
+
+/*Start of donation plan*/
 .donate-plan{
     margin:2%;
     padding:50px 2% 1% 1%;
@@ -133,6 +142,10 @@ body{
     background-color:rgba(248, 232, 160, 0.533);
 
 }
+
+/*End of donation plan*/
+
+/*Start of contribution section*/
 .how_to_contribute_text_1{
     margin-left: 15%;
 }
@@ -190,6 +203,9 @@ body{
     font-weight: 300px;
     font-size:10px;
 }
+/*End of contribution section*/
+
+/*Start of get my update section*/
 #get_my_updates p{
     margin: 0 20% 2% 20%;
     font-weight: 300;
@@ -238,6 +254,9 @@ body{
     font-weight: 600;
     font-size:15px;
 }
+/*End of my update section*/
+
+/*Start of footer section*/
 #style_footer{
     background-color: black;
     padding:2%;
@@ -246,6 +265,7 @@ body{
     margin-left:40%;
     margin-right:25%;
 }
+/*End of footer section*/
 
 
 
