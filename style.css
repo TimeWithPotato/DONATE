@@ -1,0 +1,48 @@
+body{
+    margin: -50px;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#background_img{
+    background-image: url(images/donation13.jpg);
+    height: 80em;
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+}
+
+.font{
+    font-family: Poppins;
+    color:aliceblue
+}
+.center{
+    position: absolute;
+    margin-left: 20%;
+    margin-top:2cm;
+    font-size: 50px;
+    font-weight: 300%;
+}
+.lorem p{
+    position:absolute;
+    font-size: 30px;
+    margin-top:6cm;
+    margin-left:20%;
+    font-weight: 2px;
+}
+
+.donate_now{
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    border: 100cm;
+    border-radius: 5%;
+    margin-top:10cm;
+    margin-left: 50%;
+    text-decoration: none;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-right: 2em;
+    padding-left:2em;
+    font-weight: 300px;
+    font-size:20px
+
+}
