@@ -117,6 +117,7 @@ body{
 }
 .donate-plan p{
     font-weight: 200;
+    font-family: Poppins;
 }
 #donate-plan-1{
     border: 1 solid;
@@ -132,4 +133,61 @@ body{
     border: 1 solid;
     background-color:rgba(248, 232, 160, 0.533);
 
+}
+.how_to_contribute_text_1{
+    margin-left: 15%;
+}
+.how_to_contribute_text_1 p{
+    text-align: justify;
+    margin-right:50%;
+}
+.how_to_contribute_text_1 a{
+    background-color: rgb(255, 94, 94);
+    border: 100cm;
+    border-radius: 10px;
+
+    text-decoration: none;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-right: 2em;
+    padding-left:2em;
+    font-weight: 300px;
+    font-size:10px;
+    
+}
+.how_to_contribute_img_1{
+    margin-right:18%;
+}
+.how_to_contribute_img_1 img{
+    width:130%;
+    height: 30em;
+}
+#how_to_contribute_img_2{
+    margin-left:15%;
+
+}
+#how_to_contribute_img_2 img{
+    width:110%;
+    height: 30em;
+}
+#how_to_contribute_text_2{
+    margin-right:10%;
+    margin-left: 8%;
+}
+#how_to_contribute_text_2 p{
+    text-align: left;
+    margin-right: 2%;
+}
+#how_to_contribute_text_2 a{
+    background-color: rgb(255, 94, 94);
+    border: 100cm;
+    border-radius: 10px;
+
+    text-decoration: none;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-right: 2em;
+    padding-left:2em;
+    font-weight: 300px;
+    font-size:10px;
 }
