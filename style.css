@@ -1,14 +1,13 @@
 body{
-    margin: -50px;
-    padding: 0;
-    overflow-x: hidden;
+    margin:0;
+    margin-bottom: 10px;
 }
-
 #background_img{
     background-image: url(images/donation13.jpg);
-    height: 80em;
-    background-size: 100% 40%;
     background-repeat: no-repeat;
+    background-size: 100%, auto;
+    height: 40em;
+    
 }
 
 .font{
@@ -30,13 +29,13 @@ body{
     font-weight: 2px;
 }
 
-.donate_now{
+.donate_now_jump_button{
     position: absolute;
     background-color: rgb(255, 0, 0);
     border: 100cm;
-    border-radius: 5%;
-    margin-top:10cm;
-    margin-left: 50%;
+    border-radius: 7px;
+    margin-top: 11cm;
+    margin-left: 40%;
     text-decoration: none;
     padding-top: 10pt;
     padding-bottom: 10pt;
@@ -45,4 +44,67 @@ body{
     font-weight: 300px;
     font-size:20px
 
+}
+.main{
+    margin-top: 10%;
+}
+.tk{
+    display: flex;
+    margin-left: 25%;
+}
+.tk div{
+    margin-left:5%;
+}
+
+#_200tk{
+    border: 2pt solid;
+    border-color: rgb(255, 21, 21);
+    border-radius: 2px;
+    background-color: rgba(247, 144, 144, 0.508);
+    padding:2px;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+#_200tk h2{
+    color: red;
+    font-family: Poppins;
+}
+
+#tk-color-grey{
+    color:rgba(80, 77, 77, 0.585);
+    font-family: Poppins;
+}
+#form-style{
+    margin-top:2%;
+    margin-left:20em;
+}
+#amount{
+    border-top:0;
+    border-left:0;
+    border-right:0;
+    padding-left:30%;
+    padding-right:30%;
+    padding-bottom:2px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight:500;
+    font-size:20px;
+}
+#donate_now{
+    margin-top:3%;
+}
+#donate_now a{
+    background-color: rgb(255, 0, 0);
+    border: 100cm;
+    border-radius: 10px;
+    margin-top: 11cm;
+    margin-left: 33%;
+    text-decoration: none;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    padding-right: 2em;
+    padding-left:2em;
+    font-weight: 300px;
+    font-size:20px
 }
