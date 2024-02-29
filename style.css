@@ -1,6 +1,6 @@
 body{
     margin:0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 #background_img{
     background-image: url(images/donation13.jpg);
@@ -31,7 +31,7 @@ body{
 
 .donate_now_jump_button{
     position: absolute;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 94, 94);
     border: 100cm;
     border-radius: 7px;
     margin-top: 11cm;
@@ -80,26 +80,28 @@ body{
     margin-left:20em;
 }
 #amount{
+    border-width:1%;
     border-top:0;
     border-left:0;
     border-right:0;
-    padding-left:30%;
+    padding-left:25%;
     padding-right:30%;
     padding-bottom:2px;
     text-align: center;
     font-family: Poppins;
     font-weight:500;
     font-size:20px;
+    outline: none;
 }
 #donate_now{
     margin-top:3%;
 }
 #donate_now a{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 94, 94);
     border: 100cm;
     border-radius: 10px;
     margin-top: 11cm;
-    margin-left: 33%;
+    margin-left: 28%;
     text-decoration: none;
     padding-top: 10pt;
     padding-bottom: 10pt;
@@ -107,4 +109,27 @@ body{
     padding-left:2em;
     font-weight: 300px;
     font-size:20px
+}
+.donate-plan{
+    margin:2%;
+    padding:50px 2% 1% 1%;
+    font-family: Poppins;
+}
+.donate-plan p{
+    font-weight: 200;
+}
+#donate-plan-1{
+    border: 1 solid;
+    background-color:rgba(172, 242, 242, 0.417);
+
+}
+#donate-plan-2{
+    border: 1 solid;
+    background-color:rgba(242, 172, 209, 0.343);
+
+}
+#donate-plan-3{
+    border: 1 solid;
+    background-color:rgba(248, 232, 160, 0.533);
+
 }
